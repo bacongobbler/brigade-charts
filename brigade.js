@@ -39,7 +39,6 @@ function release(e, project) {
         // download the chart repository to merge in with the newly packaged charts
         `mkdir _repo/`,
         `az storage blob download-batch --source $AZURE_STORAGE_CONTAINER --destination _repo/`,
-        `ls -al`,
         `cp *.tgz _repo/`
     ];
 
