@@ -5,6 +5,7 @@ const checkRunImage = "technosophos/brigade-github-check-run:latest"
 
 const charts = [
     'brigade',
+    'brigade-project',
     'kashti'
 ]
 
