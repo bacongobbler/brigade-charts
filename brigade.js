@@ -67,4 +67,5 @@ function release(e, project) {
 
 events.on('exec', release);
 events.on('pull_request', test);
+events.on('check_suite:requested', test);
 events.on('push', release);
