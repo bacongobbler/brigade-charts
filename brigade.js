@@ -1,5 +1,7 @@
 const { events, Job, Group} = require('brigadier')
-const uuidv4 = require('uuid/v4');
+const uuidv4 = require('uuid/v4')
+
+const checkRunImage = "technosophos/brigade-github-check-run:latest"
 
 const charts = [
     'brigade',
